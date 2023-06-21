@@ -14,154 +14,160 @@
 </head>
 
 <body>
+    <div class="container">
 
-    <header class="header">
-        <nav class="navbar navbar-expand-lg bg-white">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#moto"><img src="./img/logo.jpg" alt="moto" width="150" height="120"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Головна</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#moto">Мотоцикли</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#us">Про нас</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Послуги
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Мотоцикли і аксесуари</a></li>
-                                <li><a class="dropdown-item" href="#">Ремонт і обслуговування</a></li>
-                                <li><a class="dropdown-item" href="#">Утилізація</a></li>
-                                <li><a class="dropdown-item" href="#">Кастомізація</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Виїзд майстра</a></li>
+        <header class="header">
+            <nav class="navbar navbar-expand-lg bg-white">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#moto"><img src="./img/logo.jpg" alt="moto" width="150"
+                            height="120"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Головна</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#moto">Мотоцикли</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#us">Про нас</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Послуги
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Мотоцикли і аксесуари</a></li>
+                                    <li><a class="dropdown-item" href="#">Ремонт і обслуговування</a></li>
+                                    <li><a class="dropdown-item" href="#">Утилізація</a></li>
+                                    <li><a class="dropdown-item" href="#">Кастомізація</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Виїзд майстра</a></li>
 
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contacts">Контакти</a>
-                        </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contacts">Контакти</a>
+                            </li>
 
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Пошук по сайту" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Шукати</button>
-                    </form>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Пошук по сайту"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Шукати</button>
+                        </form>
+                    </div>
                 </div>
+            </nav>
+
+        </header>
+
+        <section id="moto">
+            <div class="swiper vh-100">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide d-flex">
+                        <img src="./img/musstang-mt110.jpg" class="mx-auto h-100 mw-100" alt="">
+                    </div>
+                    <div class="swiper-slide d-flex">
+                        <img src="./img/125.jpg" class="mx-auto max-h-100 mw-100" alt="">
+                    </div>
+                    <div class="swiper-slide d-flex">
+                        <img src="./img/150.jpg" class="mx-auto max-h-100 mw-100" alt="">
+                    </div>
+                    <div class="swiper-slide d-flex">
+                        <img src="./img/200.jpg" class="mx-auto max-h-100 mw-100" alt="">
+                    </div>
+                    <div class="swiper-slide d-flex">
+                        <img src="./img/250.jpg" class="mx-auto max-h-100 mw-100" alt="">
+                    </div>
+                    <div class="swiper-slide d-flex">
+                        <img src="./img/lf-150.jpg" class="mx-auto max-h-100 mw-100" alt="">
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
-        </nav>
-    </header>
+        </section>
 
-    <section id="moto">
-        <div class="swiper vh-100">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide d-flex">
-                    <img src="./img/musstang-mt110.jpg" class="mx-auto h-100 mw-100" alt="">
-                </div>
-                <div class="swiper-slide d-flex">
-                    <img src="./img/125.jpg" class="mx-auto max-h-100 mw-100" alt="">
-                </div>
-                <div class="swiper-slide d-flex">
-                    <img src="./img/150.jpg" class="mx-auto max-h-100 mw-100" alt="">
-                </div>
-                <div class="swiper-slide d-flex">
-                    <img src="./img/200.jpg" class="mx-auto max-h-100 mw-100" alt="">
-                </div>
-                <div class="swiper-slide d-flex">
-                    <img src="./img/250.jpg" class="mx-auto max-h-100 mw-100" alt="">
-                </div>
-                <div class="swiper-slide d-flex">
-                    <img src="./img/lf-150.jpg" class="mx-auto max-h-100 mw-100" alt="">
-                </div>
+        <section id="us">
+            <h2>Про Нас</h2>
+            <hr class="mb-4">
+
+            <p>Lviv Motocycle Customs - Інтернет-магазин і мережа мотосалонів в Україні, здійснює продаж мотоциклів
+                китайських виробників,
+                мотоекіпірування, різноманітного тюнінгу і мотозапчастин. Один з найбільших в українському мотобізнесі
+                власний
+                сучасний складський комплекс, що дозволяє підтримувати в наявності сотні найбільш запитуваних одиниць
+                мототехніки і оперативно виконувати заявки роздрібної мережі і оптових клієнтів.</p>
+            <p>Lviv Motocycle Customs - мотомагазин, чиї мотоцикли в останні роки значно потіснили суперників на
+                асфальті.
+                Прихильники
+                якісної китайських брендів можуть придбати у нас мотоцикли Kovi, Shineray, Lifan, Musstang. Як офіційний
+                дилер,
+                ми пропонуємо тільки нову сертифіковану техніку за офіційно рекомендованими роздрібними цінами.
+                Вся мототехніка в наших мотосалонах проходить обов'язкову передпродажну підготовку і забезпечується
+                гарантією
+                від виробників. В ході експлуатації, в наших мотосервісах, ви можете провести все необхідне за
+                регламентом
+                техобслуговування і кваліфікований ремонт.</p>
+            <p>Завжди в наявності широкий асортимент витратних матеріалів, мотошин, запчастин і аксесуарів для всіх
+                типів
+                мотоциклів.
+            </p>
+            <p>Вибравши мотоцикл, не забудьте придбати мотоекіпірування. Якісний мотошолом, мотокуртка, мотоштани,
+                мотоботи
+                і
+                моторукавиці, значно збільшують ваші шанси відбутися мінімумом шкоди для здоров'я в разі падіння, а при
+                повсякденній їзді забезпечать комфорт і зручність.</p>
+        </section>
+
+        <section id="contacts">
+            <h2>Наші контакти</h2>
+            <hr class="mb-4">
+            <div class="d-flex align-items-center gap-4">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10290.76981171888!2d24.0003128!3d49.848236!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add9764703963%3A0x4bfde3fe8ae539d5!2z0JLQuNGJ0LUg0L_RgNC-0YTQtdGB0ZbQudC90LUg0YPRh9C40LvQuNGJ0LUg4oSWMjkg0LwuINCb0YzQstC-0LLQsA!5e0!3m2!1suk!2sua!4v1687360854550!5m2!1suk!2sua"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <ul class="list-unstyled">
+                    <li><span class="fw-bold">Адреса:</span> вулиця Шевченка, 116, Львів, Львівська область, 79039</li>
+                    <li><span class="fw-bold">Номер телефону 1: </span>+38 (032) 233-25-07</li>
+                    <li><span class="fw-bold">Номер телефону 2: </span>+38 (032) 233-25-07</li>
+                    <li><span class="fw-bold">Менеджер:</span> Чернявський Ростислав Ігорович</li>
+                    <li class="d-flex gap-4 align-items-center"><span class="fw-bold">Соцмережі:</span>
+                        <ul class="socials list-unstyled d-flex gap-2 fs-4">
+                            <li><a href="https://www.facebook.com/lvivvpu29/"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="https://instagram.com/_rostuk_777?igshid=ZDc4ODBmNjlmNQ=="><i
+                                        class="bi bi-instagram"></i></a></li>
+                            <li><a href="https://www.tiktok.com/@rostuk3333?_t=8dM5PHomkw1&_r=1"><i
+                                        class="bi bi-telegram"></i></a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+
             </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
+        </section>
+    </div>
 
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-    </section>
-
-    <section id="us">
-        <h2>Про Нас</h2>
-        <hr class="mb-4">
-
-        <p>Lviv Motocycle Customs - Інтернет-магазин і мережа мотосалонів в Україні, здійснює продаж мотоциклів
-            китайських виробників,
-            мотоекіпірування, різноманітного тюнінгу і мотозапчастин. Один з найбільших в українському мотобізнесі
-            власний
-            сучасний складський комплекс, що дозволяє підтримувати в наявності сотні найбільш запитуваних одиниць
-            мототехніки і оперативно виконувати заявки роздрібної мережі і оптових клієнтів.</p>
-        <p>Lviv Motocycle Customs - мотомагазин, чиї мотоцикли в останні роки значно потіснили суперників на
-            асфальті.
-            Прихильники
-            якісної китайських брендів можуть придбати у нас мотоцикли Kovi, Shineray, Lifan, Musstang. Як офіційний
-            дилер,
-            ми пропонуємо тільки нову сертифіковану техніку за офіційно рекомендованими роздрібними цінами.
-            Вся мототехніка в наших мотосалонах проходить обов'язкову передпродажну підготовку і забезпечується
-            гарантією
-            від виробників. В ході експлуатації, в наших мотосервісах, ви можете провести все необхідне за
-            регламентом
-            техобслуговування і кваліфікований ремонт.</p>
-        <p>Завжди в наявності широкий асортимент витратних матеріалів, мотошин, запчастин і аксесуарів для всіх
-            типів
-            мотоциклів.
-        </p>
-        <p>Вибравши мотоцикл, не забудьте придбати мотоекіпірування. Якісний мотошолом, мотокуртка, мотоштани,
-            мотоботи
-            і
-            моторукавиці, значно збільшують ваші шанси відбутися мінімумом шкоди для здоров'я в разі падіння, а при
-            повсякденній їзді забезпечать комфорт і зручність.</p>
-    </section>
-
-    <section id="contacts">
-        <h2>Наші контакти</h2>
-        <hr class="mb-4">
-        <div class="d-flex align-items-center gap-4">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10290.76981171888!2d24.0003128!3d49.848236!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add9764703963%3A0x4bfde3fe8ae539d5!2z0JLQuNGJ0LUg0L_RgNC-0YTQtdGB0ZbQudC90LUg0YPRh9C40LvQuNGJ0LUg4oSWMjkg0LwuINCb0YzQstC-0LLQsA!5e0!3m2!1suk!2sua!4v1687360854550!5m2!1suk!2sua"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <ul class="list-unstyled">
-                <li><span class="fw-bold">Адреса:</span> вулиця Шевченка, 116, Львів, Львівська область, 79039</li>
-                <li><span class="fw-bold">Номер телефону 1: </span>+38 (032) 233-25-07</li>
-                <li><span class="fw-bold">Номер телефону 2: </span>+38 (032) 233-25-07</li>
-                <li><span class="fw-bold">Менеджер:</span> Чернявський Ростислав Ігорович</li>
-                <li class="d-flex gap-4 align-items-center"><span class="fw-bold">Соцмережі:</span>
-                    <ul class="socials list-unstyled d-flex gap-2 fs-4">
-                        <li><a href="https://www.facebook.com/lvivvpu29/"><i class="bi bi-facebook"></i></a></li>
-                        <li><a href="https://instagram.com/_rostuk_777?igshid=ZDc4ODBmNjlmNQ=="><i
-                                    class="bi bi-instagram"></i></a></li>
-                        <li><a href="https://www.tiktok.com/@rostuk3333?_t=8dM5PHomkw1&_r=1"><i
-                                    class="bi bi-telegram"></i></a></li>
-
-                    </ul>
-                </li>
-            </ul>
-
-        </div>
-    </section>
-
-    <footer class="d-flex justify-content-center py-4 bg-dark text-white">
+    <footer class="d-flex justify-content-center py-4 bg-dark text-white text-center">
         <div class="">© 2023 Copyright: Чернявський Ростислав Ігорович</div>
     </footer>
+
 
 
 

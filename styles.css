@@ -44,9 +44,17 @@ button[data-bs-slide] {
 
 .swiper-button-prev,
 .swiper-button-next {
+    display: none;
     border: 1px solid #000;
     width: 90px;
     height: 90px;
     border-radius: 50%;
     color: #000;
+}
+ 
+@media screen and (min-width: 768px) {
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: flex
+    }
 }
